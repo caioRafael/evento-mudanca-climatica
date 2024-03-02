@@ -3,10 +3,7 @@
     --primary: #537D53;
     --secondary: #0A130C;
     --text: #F2F2F2;
-
-    --small-screen: 480px;
-    --medium-screem: 720px;
-    --large-screem: 1024px;
+    --attention: #CF2015;
 }
 
 * {

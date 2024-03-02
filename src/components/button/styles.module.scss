@@ -1,0 +1,17 @@
+.button{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: var(--primary);
+    padding: 15px;
+    cursor: pointer;
+    font: bold;
+    border: 0;
+
+    &:hover{
+        opacity: 0.9;
+        transition: 0.5s;
+    }
+}
