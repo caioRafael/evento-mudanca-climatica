@@ -5,6 +5,7 @@ import styles from './page.module.scss'
 import { Header } from '@/components/header'
 import Image from 'next/image'
 import EarthImage from '@/assets/earth-background.svg'
+// import { Drawer } from '@/components/drawer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,10 @@ export default function RootLayout({
             className={styles.backgroundImage}
           />
           <Header />
+          {/* <Drawer>
+            <h1>ola mundo</h1>
+            <h2>ola mundo</h2>
+          </Drawer> */}
           {children}
         </main>
       </body>
