@@ -5,6 +5,7 @@ import styles from './page.module.scss'
 import { Header } from '@/components/header'
 import Image from 'next/image'
 import EarthImage from '@/assets/earth-background.svg'
+import { EventProvider } from '@/context/EventContext'
 // import { Drawer } from '@/components/drawer'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -23,19 +24,17 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={inter.className}>
         <main className={styles.main}>
-          <Image
-            width={1500}
-            height={900}
-            alt="image of planet earth"
-            src={EarthImage}
-            className={styles.backgroundImage}
-          />
-          <Header />
-          {/* <Drawer>
-            <h1>ola mundo</h1>
-            <h2>ola mundo</h2>
-          </Drawer> */}
-          {children}
+          <EventProvider>
+            <Image
+              width={1500}
+              height={900}
+              alt="image of planet earth"
+              src={EarthImage}
+              className={styles.backgroundImage}
+            />
+            <Header />
+            {children}
+          </EventProvider>
         </main>
       </body>
     </html>

@@ -1,4 +1,3 @@
-// import { Button } from '../components/styles'
 import Link from 'next/link'
 import styles from './page.module.scss'
 
@@ -15,7 +14,7 @@ export default function Home() {
           efeitos.
         </p>
         <p>
-          Venha fazer parte do nosso evento para saver mais sobre o assunto.
+          Venha fazer parte do nosso evento para saber mais sobre o assunto.
         </p>
       </div>
       <div className={styles.subscribeContainer}>
