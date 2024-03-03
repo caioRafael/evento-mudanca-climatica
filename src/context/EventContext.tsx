@@ -28,8 +28,6 @@ export function EventProvider({ children }: EventProviderProps) {
     setRegistrations([...registrations, registration])
   }
 
-  console.log('iscrições', registrations)
-  console.log('submissões', submissions)
   return (
     <EventContext.Provider
       value={{ submissions, addSubmission, registrations, addRegistration }}
