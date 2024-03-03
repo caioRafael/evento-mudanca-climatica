@@ -4,7 +4,8 @@ type FormErrors<T> = Partial<Record<keyof T, string>>
 
 interface FormReturn<S> {
   formData: S
-  handleChange: (e: ChangeEvent<HTMLInputElement>) => void
+  setFormData: (value: S) => void
+  handleChange: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
   handleSubmit: (
     callback: (values: S) => void,
   ) => (e: FormEvent<HTMLFormElement>) => void
@@ -16,7 +17,9 @@ export function useForm<T extends {}>(initialValue: T): FormReturn<T> {
   const [formData, setFormData] = useState<T>(initialValue)
   const [errors, setErrors] = useState<FormErrors<T>>({})
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target
 
     setFormData({
@@ -45,6 +48,7 @@ export function useForm<T extends {}>(initialValue: T): FormReturn<T> {
 
   return {
     formData,
+    setFormData,
     handleChange,
     handleSubmit,
     errors,
