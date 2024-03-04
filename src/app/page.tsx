@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div className={styles.container}>
         <div className={styles.eventContainer}>
-          <h1>Mudanças climaticas</h1>
+          <h1>Encontro pela Sustentabilidade Climática</h1>
           <p>
             As mudanças climáticas estão causando impactos devastadores em todo
             o mundo, com eventos climáticos extremos se tornando mais comuns. É

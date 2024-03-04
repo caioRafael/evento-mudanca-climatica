@@ -1,8 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Encontro pela Sustentabilidade Climática
 
-## Getting Started
+![sistema](./images/initial-page.png)
 
-First, run the development server:
+Bem-vindo ao projeto do site para o nosso evento dedicado às mudanças climáticas! Este repositório contém o código-fonte e os recursos necessários para criar o website do evento, proporcionando informações essenciais, registro de participantes e acesso a recursos relacionados ao evento.
+
+## Visão Geral
+
+O evento sobre mudanças climáticas é uma iniciativa global destinada a reunir especialistas, líderes comunitários, ativistas e interessados de diversas áreas para discutir, colaborar e agir em relação ao desafio das mudanças climáticas. Nosso objetivo é fornecer uma plataforma para compartilhar conhecimentos, promover soluções sustentáveis e inspirar ações positivas para enfrentar esse desafio urgente.
+
+## Funcionalidades do Site
+
+O site do evento possui várias funcionalidades importantes, incluindo:
+
+- **Informações do Evento:** Detalhes sobre o evento.
+- **Inscrição no Evento:** Formulário de inscrição para participantes interessados em participar do evento.
+- **Submissão de Trabalhos:** Plataforma para submissão de trabalhos relacionados ao tema do evento.
+- **Visualização dos Trabalhos Submetidos:** Seção onde os participantes podem visualizar os trabalhos submetidos por outros participantes.
+
+## Tecnologias Utilizadas
+
+O site do evento é desenvolvido utilizando as seguintes tecnologias:
+
+- React
+- Next.js
+- SASS
+- HTML
+
+## Estrutura do Projeto
+
+O projeto foi organizado nas seguintes pastas:
+
+- **src**: pasta principal do projeto, com pastas e rotas.
+- **types**: Contém arquivos para definição de tipos e interfaces.
+- **components**: Armazena componentes reutilizáveis do React.
+- **context**: Contém os contextos do React utilizados na aplicação.
+- **hooks**: Inclui os custom hooks utilizados no projeto.
+- **assets**: Armazena imagens, animações e outros recursos visuais.
+- **utils**: Contém utilitários e funções auxiliares utilizadas na aplicação.
+
+
+# Tutorial de Instalação e Execução do Projeto
+
+## Instalação das Dependências
+
+Certifique-se de ter o Node.js e o npm (ou yarn) instalados em seu sistema. Em seguida, siga estas etapas:
+
+1. **Clone o Repositório: https://github.com/caioRafael/evento-mudanca-climatica.git**
+
+2. **Navegue até o Diretório do Projeto**
+
+3. **Instale as Dependências:**
+
+```bash
+npm run install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+4. **Inicie o Servidor de Desenvolvimento:**
 
 ```bash
 npm run dev
@@ -14,23 +73,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contato
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[caiorafaelrg@gmail.com](mailto:caiorafaelrg@gmail.com).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
