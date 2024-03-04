@@ -75,5 +75,6 @@ bun dev
 
 ## Contato
 
-[caiorafaelrg@gmail.com](mailto:caiorafaelrg@gmail.com).
+[caiorafaelrg@gmail.com](mailto:caiorafaelrg@gmail.com)
+
 
