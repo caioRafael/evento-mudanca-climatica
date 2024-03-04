@@ -6,7 +6,6 @@ import { Header } from '@/components/header'
 import Image from 'next/image'
 import EarthImage from '@/assets/earth-background.svg'
 import { EventProvider } from '@/context/EventContext'
-// import { Drawer } from '@/components/drawer'
 
 const inter = Inter({ subsets: ['latin'] })
 
